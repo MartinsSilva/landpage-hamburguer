@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 100%;
+	font-family: "Lucida Sans";
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	position: relative;
+	overflow: hidden;
+	max-height: 666px;
+	background-color: #fff;
+}
+
+header:before {
+	content: "";
+	background-color: #ffbb38;
+	width: 100%;
+	z-index: 0;
+	height: 180%;
+	position: absolute;
+	left: 50%;
+	transform: rotate(28deg);
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+	margin: 20px;
+	position: relative;
+}
+
+.menu a {
+	color: #141212;
+	margin-right: 30px;
+	font-weight: normal;
+}
+
+#logo {
+	margin-right: 60px;
+	font-weight: 700;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 1.3rem;
+}
+
+.social-media a {
+	color: white;
+	margin-right: 4px;
+}
+
+/* main */
+main {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	margin-top: 10rem;
+}
+
+/* booking */
+.booking {
+	width: 810px;
+}
+
+.booking h2 {
+	font-size: 3rem;
+}
+
+.booking p {
+	font-weight: 800px;
+	text-align: justify;
+	margin-top: 4px;
+}
+
+.form-booking {
+	margin-top: 20px;
+}
+
+input {
+	width: 300px;
+	padding: 10px;
+	appearance: none;
+	outline: none;
+	border: 1px solid #aca9a9;
+	border-radius: 7px;
+	transition: all 0.3s;
+}
+
+input[type="text"] {
+	color: #aca9a9;
+	transition: all 0.3s;
+}
+
+.btn-order {
+	border: none;
+	background-color: #ff7b27;
+	color: white;
+	padding: 10px 50px 10px 50px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.btn-order:hover {
+	background-color: #ee8f54;
+	transition: ease-in 0.3s;
+}
+
+.show-hamburguer img {
+	margin-left: -500px;
+	margin-top: -80px;
+}
